@@ -1,0 +1,307 @@
+body {
+    height: 700vh;
+    header {
+        height: 70px;
+        display: flex;
+        align-items: center;
+
+        #custom-container {
+            #custom-row {
+                .title {
+                    a {
+                        text-decoration: none;
+                        color: #0065ed;
+                    }
+
+                    h1 {
+                        font-size: 24px;
+                    }
+                }
+
+                .links {
+                    ul {
+                        display: flex;
+                        list-style: none;
+
+                        li {
+                            margin-left: 5%;
+
+                            a {
+                                text-decoration: none;
+                                color: #1d1e20;
+                            }
+                        }
+                    }
+                }
+
+                .search {
+                    ul {
+                        display: flex;
+                        list-style: none;
+
+                        li {
+                            margin-left: 5%;
+
+                            a {
+                                text-decoration: none;
+                                color: #124191;
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    main {
+        #first-section {
+            height: 100vh;
+            background-image: url(https://images.ctfassets.net/hrltx12pl8hq/7yQR5uJhwEkRfjwMFJ7bUK/dc52a0913e8ff8b5c276177890eb0129/offset_comp_772626-opt.jpg?fit=fill&w=800&h=300);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+
+            .custom-container {
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .custom-card {
+                    .title {
+                        h2 {
+                            font-weight: bold;
+                            font-size: 70px;
+                            color: #fff;
+                        }
+                    }
+
+                    .desc {
+                        p {
+                            font-size: 20px;
+                            color: #fff;
+                        }
+                    }
+
+                    .custom-button {
+                        button {
+                            border: none;
+                            background-color: #0065ed;
+                            padding: 10px;
+                            color: #fff;
+                            transition: 500ms linear;
+                        }
+
+                        button:hover {
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+            }
+        }
+
+        #second-section {
+            margin-top: 5%;
+            height: 100vh;
+
+            .custom-container {
+                height: 80%;
+                background-image: url(https://images.unsplash.com/photo-1563622002996-557a15de7389?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80);
+                background-repeat: no-repeat;
+                background-size: cover;
+                display: flex;
+                align-items: center;
+
+                .custom-card {
+                    .title {
+                        h2 {
+                            font-weight: bold;
+                            font-size: 70px;
+                            color: #fff;
+                        }
+                    }
+
+                    .desc {
+                        p {
+                            font-size: 20px;
+                            color: #fff;
+                        }
+                    }
+
+                    .custom-button {
+                        button {
+                            border: none;
+                            background-color: #0065ed;
+                            padding: 10px;
+                            color: #fff;
+                            transition: 500ms linear;
+                        }
+
+                        button:hover {
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+            }
+        }
+
+        #third-section {
+            #custom-container {
+                #custom-row {
+                    #custom-card {
+                        border: none;
+
+                        .image {
+                             overflow: hidden;
+                            img {
+                                width: 100%;
+                            transition: 500ms linear;
+
+                            }
+                        }
+                    }
+
+                    #custom-card:hover {
+                        .image {
+                            img {
+                                transform: scale(1.1);
+                                box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+                            }
+                        }
+                        .title{
+                            text-decoration: underline;
+                            color: #0065ed;
+                        }
+                    }
+                }
+            }
+        }
+        #fourth-section{
+            background-image: url(https://c.tadst.com/gfx/750w/full-moon-phase2.jpg?1);
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: flex-end;
+            .custom-container{
+                background-color: #0065ed;
+                width: 40%;
+                padding: 5%;
+                color: #fff;
+                margin-left: 15%;
+                .custom-button{
+                    button{
+                        border: none;
+                        background-color: #fff;
+                        color: #0065ed;
+                        padding: 15px;
+                        transition: 500ms linear;
+                    }
+                    button:hover{
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+        #fifth-section{
+            margin-top: 5%;
+            #custom-container{
+                #custom-row{
+                    margin-top: 3%;
+                    #custom-card{
+                        border: none;
+                        .image {
+                            overflow: hidden;
+                           img {
+                                width: 400px;
+                                height: 400px;
+                                transition: 500ms linear;
+                           }
+                       }
+                    }
+                    #custom-card:hover {
+                        .image {
+                            img {
+                                transform: scale(1.1);
+                                box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+                            }
+                        }
+                        .title{
+                            text-decoration: underline;
+                            color: #0065ed;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        background-color: #001135;
+        #custom-container{
+            #custom-row{
+                margin-top: 5%;
+                .title{
+                    h1{
+                        margin-top: 5%;
+                        color: #fff;
+                    }
+                }
+                .custom-card{
+                    display: flex;
+                    .links{
+                        ul{
+                            list-style: none;
+                            display: flex;
+                            li{
+                                margin-right: 15px;
+                                a{
+                                    padding: 10px;
+                                    text-decoration: none;
+                                    color: #fff;
+                                    border: 1px solid #e3e3e3;
+                                    border-radius: 100%;
+                                }
+                                a:hover{
+                                    background-color: #fff;
+                                    color: #001135;
+                                }
+                            }
+                        }
+                    }
+                    .desc{
+                        margin-left: 15%;
+                        a{
+                            text-decoration: none;
+                            color: #666;
+                            transition: 300ms linear;
+                        }
+                        a:hover{
+                            color: rgb(124, 124, 239);
+                        }
+                    }
+                }
+                .info{
+                    color: #666;
+                }
+                .custom-button{
+                    button{
+                        border: none;
+                        padding: 5% 20%;
+                        background-color: transparent;
+                        border: 1px solid #fff;
+                        color: #fff;
+                        border-radius: 3px;
+                        transition: 300ms linear;
+                    }
+                    button:hover{
+                        background-color: #fff;
+                        color: #001135;
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+    }
+}
